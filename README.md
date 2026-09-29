@@ -91,7 +91,7 @@ The harder problems and how they're solved — Whatnot's API is undocumented and
 ### Windows — one-click
 
 1. Download `install.bat`:
-   https://raw.githubusercontent.com/CarsonTaylor99/WhatNotNow/master/install.bat
+   https://raw.githubusercontent.com/natsuin/WhatNotNow/master/install.bat
    (right-click the page → Save As → `install.bat`)
 2. Double-click `install.bat`. It prompts for an install folder, **installs Python for you if it isn't already there** (via `winget` — falls back to a download link otherwise), downloads the project from GitHub, creates a Python virtualenv, and installs all dependencies. At the end it offers to launch the scanner.
 3. Optional: drop a `.env` from a previous install into the new folder.
@@ -105,7 +105,7 @@ No WSL or Linux involved — everything runs on native Windows Python. To update
 ### Manual (Mac / Linux / anyone who wants control)
 
 ```bash
-git clone https://github.com/CarsonTaylor99/WhatNotNow.git
+git clone https://github.com/natsuin/WhatNotNow.git
 cd WhatNotNow
 python -m venv .venv
 source .venv/bin/activate

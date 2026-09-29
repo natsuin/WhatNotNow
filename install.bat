@@ -102,7 +102,7 @@ cd /d "%INSTALL_DIR%"
 REM ── Download project zip from GitHub ───────────────────────────────────────
 echo.
 echo Downloading project from GitHub...
-curl -fL -o "%TEMP%\wnn-install.zip" https://github.com/CarsonTaylor99/WhatNotNow/archive/refs/heads/master.zip
+curl -fL -o "%TEMP%\wnn-install.zip" https://github.com/natsuin/WhatNotNow/archive/refs/heads/master.zip
 if errorlevel 1 (
     echo ERROR: Download failed. Check your internet connection.
     pause
